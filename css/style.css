@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    height: 80vh;
+    width: 80vh;
+    
+}
+body{
+    background-color: lightgray;
+}
+
+.merge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 300px;
+    position: relative;
+    top: 60px;
+    left: 87px;
+    margin-bottom: 0%;
+}
+.logo h2{
+    height: 60%;
+    width: 500px;
+    position: relative;
+    left: 120px;
+    margin-top: 0%;
+}
+.form-container{
+    background-color: white;
+    position: relative;
+    top: 90px;
+    left: 190px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 10%;
+    
+}
+.form-container input{
+    width:350px;
+    padding: 14px 24px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+.btn-login{
+    width: 100%;
+    height: 40px;
+    background-color: #1877f2;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+    font-weight: px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.form-container a{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 85px;
+    margin-bottom: 50px;
+}
+.form hr{
+    width: 350px;
+}
+.btn-new{
+   height: 45px;
+   position: relative;
+   top: 30px;
+   left: 45px;
+   width: 220px;
+   background-color:#42b72a;
+   border-radius: 5px;
+   font-family: sans-serif;
+   color: white;
+   font-weight:bolder;
+   font-size: medium;
+}
+.form p{
+    position: relative;
+    top: 110px;
+    left: 220px;
+}
+.form p a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+
+}
+footer{
+    height: 30vh;
+    background-color: white;
+}
+.up-container ol, .down-container ol{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+.up-container {
+    border-bottom: 1px solid #8a8d91;
+    position: relative;
+    left: 105px;
+    width: 75%;
+}
+.down-container{
+    position: relative;
+    left: 105px;
+    width: 75%;
+}
+.up-container ol li, .up-container ol a {
+    padding: 5px;
+    color: #8a8d91;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: small;
+    
+}
+.down-container ol a{
+    color: #8a8d91;
+    text-decoration: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+small{
+    position: relative;
+    left: 115px;
+    width: 75%;
+    color: #8a8d91;
+    
+}
